@@ -6,7 +6,7 @@ This simple dashboard is designed with Next JS and Tailwind css. In this dashboa
 For implementing icons React icons were used.
 
 Later this project deployed in the vercel.
-### Live Link:
+### Live Link: https://next-js-dashboard-eight.vercel.app/
 
 ## Developed by
 Shahtaz Rahman Shanto
