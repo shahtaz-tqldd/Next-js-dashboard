@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import React from 'react'
+
 import { FaBars } from 'react-icons/fa';
 import { BsThreeDots } from 'react-icons/bs';
 import { FiSearch } from 'react-icons/fi';

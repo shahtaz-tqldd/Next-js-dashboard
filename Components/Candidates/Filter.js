@@ -1,4 +1,3 @@
-import React from 'react'
 import { FiSearch } from 'react-icons/fi';
 const Filter = () => {
     const filter = ['To-Dos', 'Notes', 'Attachment Category', 'Rating', 'Last Name', 'Hiring Pipeline', 'Application ID', 'Account Manager', 'Application Owner', 'Application Source', 'Assigned Recruiter(s)', 'Assosiated Tags']

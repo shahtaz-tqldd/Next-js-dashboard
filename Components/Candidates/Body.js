@@ -1,6 +1,6 @@
-import { FaBars } from 'react-icons/fa';
 import { TbTableExport } from 'react-icons/tb';
 const Body = () => {
+    const applicationData = [];
     return (
         <div>
             <table className="w-full table-fixed">
@@ -17,7 +17,21 @@ const Body = () => {
                 </thead>
                 <hr className='border-gray-400 w-[700%] mt-[2px]' />
                 <tbody className='text-center'>
-                    No Application Found!
+                    { applicationData.length? 
+                        applicationData.map((p, index) => {
+                            <tr key={index}>
+                                <td className='pl-3 py-3'>{ index+1 }</td>
+                                <td>{p.rating}</td>
+                                <td>{p.name}</td>
+                                <td>{p.pipeline}</td>
+                                <td>{p.status}</td>
+                                <td>{p.id}</td>
+                                <td>{p.title}</td>
+                            </tr>
+                        })
+                        : <h1 className='text-xl absolute left-[50%] top-[30%]'>No Applications Found!</h1>
+                    }
+                    
                 </tbody>
             </table>
 
