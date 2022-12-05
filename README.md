@@ -3,9 +3,10 @@
 It's a sample of a dashboard where applications of candidates are to be shown within a table and many other filter might be applied.
 
 This simple dashboard is designed with Next JS and Tailwind css. In this dashboard core tailwind was used along with some customize css.
-For implementing icons React icons were used.
+React Icons were implemented
 
-Later this project deployed in the vercel.
+This project was deployed in the vercel.
+
 ### Live Link: https://next-js-dashboard-eight.vercel.app/
 
 ## Developed by
